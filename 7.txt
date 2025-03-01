@@ -1,0 +1,15 @@
+# Sentence
+string = "Hulkmaniacs are running wild in the whole world"
+# Sentence splitted up into words
+wordList = string.split()
+# Defining vowels for uppercase and lowercase
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+#Traversing every word in wordList
+for word in wordList:
+    vowelCount = 0
+    #Traversing every character of the word
+    for i in range(0, len(word)):
+        # If the word contains a vowel then vowelCount adds by 1
+        if word[i] in vowels:
+            vowelCount += 1
+    print("The word is", word, "and it contains", vowelCount, "vowels in it")

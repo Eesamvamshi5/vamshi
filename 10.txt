@@ -1,0 +1,10 @@
+for(j=0;j<len;j++){
+ 
+       if (hash[str[j]]==1){
+          cout<<"First non-repeated character is "<<str[j];
+          break;
+       } 
+   }
+
+   return 0;
+}
